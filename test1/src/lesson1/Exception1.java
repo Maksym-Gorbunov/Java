@@ -16,7 +16,7 @@ public class Exception1 {
             System.out.println("My Exsepton kan be handled here.");
             System.out.println("EXCEPTION: " + e);
         } catch(Exception e_general){
-            System.out.println("EXCEPTION: " + e_general);
+            System.out.println("EXCEPTION: " + e_general+2222);
         }
 
         System.out.println("----------    Success      -----------------------");
