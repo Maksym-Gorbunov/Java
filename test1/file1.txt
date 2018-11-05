@@ -1,7 +1,0 @@
-file1 content is here
-555
-
-line 3
-line 4
-
-line 6

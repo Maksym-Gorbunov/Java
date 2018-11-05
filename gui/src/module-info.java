@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author MAXXX
- *
- */
-module gui {
-}

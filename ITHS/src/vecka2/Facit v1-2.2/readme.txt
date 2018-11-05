@@ -1,1 +1,0 @@
-Innan du kör en fil, ändra filnamnet så att det stämmer med klassnamnet inuti filen
