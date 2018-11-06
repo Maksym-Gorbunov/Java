@@ -40,7 +40,7 @@ public class Member implements Serializable {
 
     @Override
     public String toString() {
-        return "Name: " + getName() + "\nBirthYear: " + getBirthYear() + "\nEmail: " + getEmail();
+        return "Name: " + getName() + ", BirthYear: " + getBirthYear() + ", Email: " + getEmail();
     }
 
     @Override
