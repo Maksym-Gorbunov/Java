@@ -18,14 +18,13 @@ public class Member implements Serializable {
         this.birthYear = birthYear;
     }
 
+    //Constructor
     public Member(String name, String email, int birthYear) {
         this(name, birthYear);
         if( (email == null) || (!email.matches("[A-Za-z0-9.]*[@][a-z]*[.][a-z]*")))
             throw new  IllegalArgumentException ("Invalid email");
         this.email = email;
     }
-
-
 
     //Getters
     public String getName() {
@@ -40,7 +39,11 @@ public class Member implements Serializable {
 
     @Override
     public String toString() {
-        return "Name: " + getName() + ", BirthYear: " + getBirthYear() + ", Email: " + getEmail();
+        if (email != null)
+            return "Name: " + getName() + ", BirthYear: " + getBirthYear() + ", Email: " + getEmail();
+        else
+            return "Name: " + getName() + ", BirthYear: " + getBirthYear();
+
     }
 
     @Override

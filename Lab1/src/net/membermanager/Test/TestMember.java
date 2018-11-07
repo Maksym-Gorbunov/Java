@@ -37,7 +37,5 @@ public class TestMember {
         }catch (IllegalArgumentException e){
             System.out.println("Email(null) test success");
         }
-
-
     }
 }
